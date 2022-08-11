@@ -1,9 +1,9 @@
 ﻿// Задайте двумерный массив размером m×n,
 // заполненный случайными вещественными числами.
 
-double [,] GetArray(int m, int n)
+double[,] GetArray(int m, int n)
 {
-double[,] result = new double[m, n];
+    double[,] result = new double[m, n];
     for (int i = 0; i < result.GetLength(0); i++)
     {
         for (int j = 0; j < result.GetLength(1); j++)
