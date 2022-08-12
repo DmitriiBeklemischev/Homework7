@@ -43,7 +43,7 @@ PrintArray(arrayTwo);
 if (arrayOne[1] <= arrayTwo.GetLength(0)
      && arrayOne[0] <= arrayTwo.GetLength(1))
 {
-    Console.WriteLine($"Число в позициях {arrayOne[0]}:{arrayOne[1]} = {arrayTwo[arrayOne[1]-1, arrayOne[0]-1]}");
+    Console.WriteLine($"Число в позициях {arrayOne[0]}:{arrayOne[1]} = {arrayTwo[arrayOne[1] - 1, arrayOne[0] - 1]}");
 }
 else
 {

@@ -31,4 +31,4 @@ int lengthM = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите длинну столбцов массива");
 int lengthN = int.Parse(Console.ReadLine());
 
-PrintArray(GetArray(lengthM, lengthN));
+PrintArray(GetArray(lengthN, lengthM));
